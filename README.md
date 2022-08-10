@@ -2,11 +2,11 @@
 
 Shristi Shrestha<sup>1</sup> , Galina Erikson<sup>2</sup>, James Lyon<sup>4</sup>, Aliya F Spigelman<sup>4</sup>, Austin Bautista<sup>4</sup>, Jocelyn E Manning Fox<sup>4</sup>, Maxim Shokhirev<sup>2</sup>, Jean-Phillippe Cartailler<sup>1</sup>, Martin W. Hetzer<sup>3</sup>, Patrick E. MacDonald<sup>4</sup>, Rafael Arrojo e Drigo<sup>5</sup>
 
-> 1 – Creative Data Solutions, Vanderbilt Center for Stem Cell Biology, Nashville, Tennessee, USA. \
+> <sup>1 – Creative Data Solutions, Vanderbilt Center for Stem Cell Biology, Nashville, Tennessee, USA \
 2 – Integrative Genomics and Bioinformatics Core, Salk Institute of Biological Studies, La Jolla, CA, USA 92037 \
 3 – Molecular and Cell Biology Laboratory, Salk Institute of Biological Studies, La Jolla, CA, USA 92037 \
-4 – Department of Pharmacology and Alberta Diabetes Institute, University of Alberta, Edmon- ton, Canada, T6G2E1 \
-5 – Department of Molecular Physiology and Biophysics, Vanderbilt University, Nashville, Ten- nessee, USA. \
+4 – Department of Pharmacology and Alberta Diabetes Institute, University of Alberta, Edmonton, Canada, T6G2E1 \
+5 – Department of Molecular Physiology and Biophysics, Vanderbilt University, Nashville, Tennessee, USA</sup>
 
 
 
@@ -14,7 +14,7 @@ Shristi Shrestha<sup>1</sup> , Galina Erikson<sup>2</sup>, James Lyon<sup>4</sup
 
 This repository contains scripts and links to analysis data used to generate manuscript figures
 
-## Data:
+## Data
 
 **Data source** : Raw files of data analyzed in this manuscript were retrieved from following data deposits:
   
@@ -37,13 +37,13 @@ This repository contains scripts and links to analysis data used to generate man
 
   
 
-## Scripts:
+## Scripts
 
 Script folder contain both R and python script organized by the figure numbers in the manuscript.
 
 
 
-## Worksheets:
+## Worksheets
 
 These are inputs used for some of manuscript figures. They were generated from multiple pySCENIC run on various agegroup and cell type subsets. See scripts for respective figure script documentation for details on these csv files.
 
