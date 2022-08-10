@@ -2,19 +2,19 @@
 
 Shristi Shrestha1 , Galina Erikson2, James Lyon4, Aliya F Spigelman4, Austin Bautista4, Jocelyn E Manning Fox4, Maxim Shokhirev2, Jean-Phillippe Cartailler1, Martin W. Hetzer3, Patrick E. MacDonald4, Rafael Arrojo e Drigo5.
 
-1 – Creative Data Solutions, Vanderbilt Center for Stem Cell Biology, Nashville, Tennessee, USA.
-2 – Integrative Genomics and Bioinformatics Core, Salk Institute of Biological Studies, La Jolla, CA, USA 92037
-3 – Molecular and Cell Biology Laboratory, Salk Institute of Biological Studies, La Jolla, CA, USA 92037
-4 – Department of Pharmacology and Alberta Diabetes Institute, University of Alberta, Edmon- ton, Canada, T6G2E1
-5 – Department of Molecular Physiology and Biophysics, Vanderbilt University, Nashville, Ten- nessee, USA.
+1 – Creative Data Solutions, Vanderbilt Center for Stem Cell Biology, Nashville, Tennessee, USA. \
+2 – Integrative Genomics and Bioinformatics Core, Salk Institute of Biological Studies, La Jolla, CA, USA 92037 \
+3 – Molecular and Cell Biology Laboratory, Salk Institute of Biological Studies, La Jolla, CA, USA 92037 \
+4 – Department of Pharmacology and Alberta Diabetes Institute, University of Alberta, Edmon- ton, Canada, T6G2E1 \
+5 – Department of Molecular Physiology and Biophysics, Vanderbilt University, Nashville, Ten- nessee, USA. \
 
 
 
 ![main_figure](main_figure.png)
 
-#### Repository contains scripts and links to analysis data used to generate manuscript figures
+## Repository contains scripts and links to analysis data used to generate manuscript figures
 
-#### Data:
+## Data:
 
 * **Data source** : Raw files of data analyzed in this manuscript were retrieved from following data deposits:
   
@@ -28,7 +28,7 @@ Shristi Shrestha1 , Galina Erikson2, James Lyon4, Aliya F Spigelman4, Austin Bau
 
 
 
-* **Analysis data access** : Seurat object containing annoted cell types, clusters, donor metadata, pySCENIC regulon binary matrix, pySCENIC auc scores and scRNA-seq gene expression are posted to zenodo.org (link)
+* **Analysis data access** : Seurat object containing annoted cell types, clusters, donor metadata, pySCENIC regulon binary matrix, pySCENIC auc scores and scRNA-seq gene expression are posted to zenodo.org (**link**)
 
   **Files**
 
@@ -39,17 +39,17 @@ Shristi Shrestha1 , Galina Erikson2, James Lyon4, Aliya F Spigelman4, Austin Bau
 
   
 
-#### Scripts:
+## Scripts:
 
 Script folder contain both R and python script organized by the figure numbers in the manuscript.
 
 
 
-#### Worksheets:
+## Worksheets:
 
 These are inputs used for some of manuscript figures. They were generated from multiple pySCENIC run on various agegroup and cell type subsets. See scripts for respective figure script documentation for details on these csv files.
 
-worksheets are posted to zenodo.org (link)
+worksheets are posted to zenodo.org (**link**)
 
 
 
