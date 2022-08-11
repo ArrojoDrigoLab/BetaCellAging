@@ -12,11 +12,25 @@ Shristi Shrestha<sup>1</sup> , Galina Erikson<sup>2</sup>, James Lyon<sup>4</sup
 
 ![main_figure](main_figure.png)
 
-This repository contains scripts and links to analysis data used to generate manuscript figures
+This repository contains scripts and links to analysis data used to generate manuscript figures.
 
-## Data
+## Scripts
 
-**Data source** : Raw files of data analyzed in this manuscript were retrieved from following data deposits:
+The `script` folder contain both R and python script organized by the figure numbers in the manuscript.
+
+## Analysis Data
+
+Seurat object containing annoted cell types, clusters, donor metadata, pySCENIC regulon binary matrix, pySCENIC AUC scores and scRNA-seq gene expression are posted to [Zenodo](https://zenodo.org/deposit/6491944), including additional tabular data in CSV format:
+
+  1. `panc.filtered.Rds` - Seurat object for post-processed, merged and integrated dataset
+  2. `allcelltype_healthy_13000.pySCENIC` - Seurat object for subset of cells (13,000, randomly selected) from healthy donors only. Also contains pySCENIC generated binary matrix for regulons and AUC scores as separate assays
+  3. `beta_healthy4.h5ad` - Anndata object for beta cell subset from healthy donors only
+  4. `beta_healthy2_BIN.h5ad` - Anndata object for beta cell subset from healthy donors only that includes pySCENIC binary matrix
+  5. Tabular data used as inouts for several figures, generated from multiple pySCENIC run on various agegroup and cell type subsets. See scripts for respective figure script documentation for details on these csv files. Worksheets available at [Zenodo](https://zenodo.org/deposit/6491944).
+  
+## Raw Data
+
+Raw files of data analyzed in this manuscript were originally retrieved from::
   
   1. GEO accession number [GSE81547](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81547) (Enge et al 2017)
   2. GEO accession number [GSE81608](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81608) (Xin et al 2016)
@@ -27,27 +41,6 @@ This repository contains scripts and links to analysis data used to generate man
   7. [Human Pancreas Analysis Program](https://hpap.pmacs.upenn.edu/)
 
 
- **Analysis data access** : Seurat object containing annoted cell types, clusters, donor metadata, pySCENIC regulon binary matrix, pySCENIC auc scores and scRNA-seq gene expression are posted to zenodo.org (**link**)
-
-
-  1. `panc.filtered.Rds` - Seurat object for post-processed, merged and integrated dataset
-  2. `allcelltype_healthy_13000.pySCENIC` - Seurat object for subset of cells(randomized 13,000) from healthy donors only. Also contains pySCENIC generated binary matrix for regulons and auc scores as separate assays
-  3. `beta_healthy4.h5ad` - Ann data object for beta cell subset from healthy donors only
-  4. `beta_healthy2_BIN.h5ad` - Ann data object for beta cell subset from healthy donors only that includes pySCENIC binary matrix
-
-  
-
-## Scripts
-
-Script folder contain both R and python script organized by the figure numbers in the manuscript.
-
-
-
-## Worksheets
-
-These are inputs used for some of manuscript figures. They were generated from multiple pySCENIC run on various agegroup and cell type subsets. See scripts for respective figure script documentation for details on these csv files.
-
-worksheets are posted to zenodo.org (**link**)
 
 
 
