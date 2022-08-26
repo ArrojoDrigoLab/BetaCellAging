@@ -22,11 +22,11 @@ The `script` folder contain both R and python script organized by the figure num
 
 Seurat object containing annoted cell types, clusters, donor metadata, pySCENIC regulon binary matrix, pySCENIC AUC scores and scRNA-seq gene expression are posted to [Zenodo](https://zenodo.org/deposit/6491944), including additional tabular data in CSV format:
 
-  1. `panc.filtered.Rds` - Seurat object for post-processed, merged and integrated dataset
-  2. `allcelltype_healthy_13000.pySCENIC` - Seurat object for subset of cells (13,000, randomly selected) from healthy donors only. Also contains pySCENIC generated binary matrix for regulons and AUC scores as separate assays
-  3. `beta_healthy4.h5ad` - Anndata object for beta cell subset from healthy donors only
-  4. `beta_healthy2_BIN.h5ad` - Anndata object for beta cell subset from healthy donors only that includes pySCENIC binary matrix
-  5. Tabular data used as inouts for several figures, generated from multiple pySCENIC run on various agegroup and cell type subsets. See scripts for respective figure script documentation for details on these csv files. Worksheets available at [Zenodo](https://zenodo.org/deposit/6491944).
+  1. `panc.filtered.Rds` - Seurat object for post-processed, merged and integrated dataset.
+  2. `allcelltype_healthy_13000.pySCENIC` - Seurat object for subset of cells (13,000 randomly selected) from healthy donors only, containing pySCENIC-generated regulon AUC score and binary assignments separate assays.
+  3. `beta_healthy4.h5ad` - Anndata object for beta cell subset from healthy donors only.
+  4. `beta_healthy2_BIN.h5ad` - Anndata object for beta cell subset from healthy donors only that includes pySCENIC-generated regulon binary assignments.
+  5. Tabular data used as inputs for several figures, generated from a pySCENIC run on various agegroup and cell type subsets. See scripts for respective figure script documentation for details on these CSV files.
   
 ## Raw Data
 
