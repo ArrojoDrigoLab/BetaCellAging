@@ -27,11 +27,11 @@ Seurat object containing annoted cell types, clusters, donor metadata, pySCENIC 
   3. `beta_healthy4.h5ad` - Anndata object for beta cell subset from healthy donors only.
   4. `beta_healthy2_BIN.h5ad` - Anndata object for beta cell subset from healthy donors only that includes pySCENIC-generated regulon binary assignments.
   5. Tabular data used as inputs for several figures, generated from a pySCENIC run on various agegroup and cell type subsets. See scripts for respective figure script documentation for details on these CSV files.
-  
+
 ## Raw Data
 
 Raw files of data analyzed in this manuscript were originally retrieved from::
-  
+
   1. GEO accession number [GSE81547](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81547) (Enge et al 2017)
   2. GEO accession number [GSE81608](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81608) (Xin et al 2016)
   3. ArrayExpress accession [E-MTAB-5061](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-5061/) (Segerstolpe et al 2016)
@@ -42,7 +42,17 @@ Raw files of data analyzed in this manuscript were originally retrieved from::
 
 
 
+## Donor Metadata
 
+| Data Source            | Donors | Disease                                                      | Cells |
+| ---------------------- | ------ | ------------------------------------------------------------ | ----- |
+| Tosti et al 2020       | 6      | 4 healthy, 2 pancreatitis                                    | 13182 |
+| Xin et al 2018         | 12     | 12 healthy                                                   | 20157 |
+| HPAP                   | 16     | 6 AA+, 4 healthy, 2 T1D, 4 T2D                               | 4191  |
+| Camunas et al 2020     | 35     | 1 elevated HbA1c, 22 healthy, 1 prediabetic, 3 T1D, 7 T2D, 1 T2Dreversed | 5095  |
+| Enge et al 2017        | 8      | 8 healthy                                                    | 2327  |
+| Segerstolpe et al 2016 | 10     | 6 healthy, 4 T2D                                             | 2501  |
+| Xin et al 2016         | 18     | 12 healthy, 6 T2D                                            | 1501  |
 
 
 
