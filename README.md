@@ -1,6 +1,6 @@
 # Aging compromises human islet beta cell function and identity by decreasing transcription factor activity and inducing ER stress
 
-Shristi Shrestha<sup>1</sup> , Galina Erikson<sup>2</sup>, James Lyon<sup>4</sup>, Aliya F Spigelman<sup>4</sup>, Austin Bautista<sup>4</sup>, Jocelyn E Manning Fox<sup>4</sup>, Maxim Shokhirev<sup>2</sup>, Jean-Phillippe Cartailler<sup>1</sup>, Martin W. Hetzer<sup>3</sup>, Patrick E. MacDonald<sup>4</sup>, Rafael Arrojo e Drigo<sup>5</sup>
+Shristi Shrestha<sup>1</sup> , Galina Erikson<sup>2</sup>, James Lyon<sup>4</sup>, Aliya F Spigelman<sup>4</sup>, Austin Bautista<sup>4</sup>, Jocelyn E Manning Fox<sup>4</sup>, Maxim Shokhirev<sup>2</sup>, Jean-Philippe Cartailler<sup>1</sup>, Martin W. Hetzer<sup>3</sup>, Patrick E. MacDonald<sup>4</sup>, Rafael Arrojo e Drigo<sup>5</sup>
 
 > <sup>1 – Creative Data Solutions, Vanderbilt Center for Stem Cell Biology, Nashville, Tennessee, USA \
 2 – Integrative Genomics and Bioinformatics Core, Salk Institute of Biological Studies, La Jolla, CA, USA 92037 \
@@ -20,7 +20,7 @@ The `script` folder contain both R and python script organized by the figure num
 
 ## Analysis Data
 
-Seurat object containing annoted cell types, clusters, donor metadata, pySCENIC regulon binary matrix, pySCENIC AUC scores and scRNA-seq gene expression are posted to [Zenodo](https://zenodo.org/deposit/6491944), including additional tabular data in CSV format:
+Seurat object containing annoted cell types, clusters, donor metadata, pySCENIC regulon binary matrix, pySCENIC AUC scores and scRNA-seq gene expression are posted to [Zenodo](https://zenodo.org/record/7311202#.Y20ybezMIyl), including additional tabular data in CSV format:
 
   1. `panc.filtered.Rds` - Seurat object for post-processed, merged and integrated dataset.
   2. `allcelltype_healthy_13000.pySCENIC` - Seurat object for subset of cells (13,000 randomly selected) from healthy donors only, containing pySCENIC-generated regulon AUC score and binary assignments separate assays.
